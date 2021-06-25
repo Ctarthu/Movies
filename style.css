@@ -47,11 +47,10 @@ body{
 }
 
 .featured-button{
-    background-color: rgb(104, 13, 13);
+    background-color: #9c1205cc;
     color: silver;
     padding: 10px 20px;
-    display: block;
-    margin-left: 30%;
+    margin-left: 550px;
     margin-top: 420px;
     
 
@@ -73,7 +72,7 @@ body{
 
 }
 .featured-content{
-    background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('basterds3.png');
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #1a1a1a), url('basterds.png');
     height: 120vh;
     width: 100%;
     max-width: 100%;
@@ -87,7 +86,9 @@ body{
   
 
 }
-
+.movie-list-title{
+    color: white;
+}
 .movie-list-wrapper{
     display: flex;
     position: relative;
@@ -96,7 +97,7 @@ body{
 }
 .movie-list{
     display: flex;
-    margin-top: -90px;
+    margin-top: 0;
     position: relative;
     transform: translateX(0);
     transition: all 500ms ease-in-out;

@@ -20,7 +20,7 @@ test()
 
 
 rightarrow.addEventListener("click",()=>{
-    if(movielist.getBoundingClientRect().right>1858){
+    if(movielist.getBoundingClientRect().right>1862){
     movielist.style.transform = 
     `translateX(${movielist.getBoundingClientRect().right - right -450}px)`;
     test()
@@ -28,7 +28,7 @@ rightarrow.addEventListener("click",()=>{
     })
     
 leftarrow.addEventListener("click",()=>{
-    if(movielist.getBoundingClientRect().left<58){
+    if(movielist.getBoundingClientRect().left<62){
         movielist.style.transform = 
         `translateX(${movielist.getBoundingClientRect().left - left +450}px)`;
         test()
@@ -37,8 +37,26 @@ leftarrow.addEventListener("click",()=>{
     })
 
 
-function openFeatured(){
-    window.open("starwars.html", "_blank");
+function open0(){
+    window.open("0.html", "_blank");
 }
 
 
+for(let i=0;i<movies.length;i++){
+movies[i].addEventListener('click',()=>{
+    console.log(movies[i].id);
+    let file=movies[i].id+'.html'
+    window.open(file, "_blank");
+
+    
+    })
+}
+       
+
+
+function aaa(){
+    
+    }
+
+
+    
