@@ -1,0 +1,139 @@
+
+
+
+body{
+    background-color: black;
+    overflow-x: hidden;
+    
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    position: sticky;
+    
+
+}
+
+.navbar-container{
+    display: flex;
+    align-items: center;
+    background-color:black;
+    padding: 20px ;
+    height: 100%;
+    
+
+}
+
+.logo-container{
+    flex: 1;
+    font-size: 70px;
+    vertical-align: top;
+    font-family: 'Kirang Haerang', cursive;
+    color: silver;
+
+}
+.content-container{
+    
+}
+.container{
+    
+    height: 1000vh;
+    max-width: 100vw
+    
+}
+
+.featured-button{
+    background-color: rgb(104, 13, 13);
+    color: silver;
+    padding: 10px 20px;
+    display: block;
+    margin-left: 30%;
+    margin-top: 420px;
+    
+
+
+}
+.featured-title{
+    margin-left: 50px;
+    font-size: 70px;
+    font-family: 'Amatic SC', cursive;
+    color: black;
+
+}
+.featured-text{
+    font-size: 40px;
+    font-family: 'Kirang Haerang', cursive;
+    width: 50%;
+    color:black;
+    margin-left: 50px;
+
+}
+.featured-content{
+    background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('basterds3.png');
+    height: 120vh;
+    width: 100%;
+    max-width: 100%;
+   
+    
+
+
+}
+.movie-list-container{
+    padding: 50px;
+  
+
+}
+
+.movie-list-wrapper{
+    display: flex;
+    position: relative;
+   
+
+}
+.movie-list{
+    display: flex;
+    margin-top: -90px;
+    position: relative;
+    transform: translateX(0);
+    transition: all 500ms ease-in-out;
+    
+
+
+}
+
+
+.movie-list-item{
+    margin-right: 50px;
+}
+.movie-list-image{
+    width: 400px;
+    height: 800px;
+    object-fit: cover;
+    transition: all 500ms ease-in-out;
+
+    
+}
+.movie-list-item:hover .movie-list-image{
+    opacity: 0.5;
+    transform: scale(1.1);
+
+}
+
+.right-arrow{
+    height: 200px;
+    position: absolute;
+    top: 250px;
+    right: -50px;
+
+
+}
+
+.left-arrow{
+    height: 200px;
+    position: absolute;
+    top: 250px;
+    left: -50px;
+
+
+}
