@@ -2,27 +2,9 @@
 
 
 body{
-    background-color: black;
+    background-color: #161616;
     overflow-x: hidden;
     
-}
-.navbar{
-    width: 100%;
-    height: 50px;
-    background-color: black;
-    position: sticky;
-    
-
-}
-
-.navbar-container{
-    display: flex;
-    align-items: center;
-    background-color:black;
-    padding: 20px ;
-    height: 100%;
-    
-
 }
 
 .logo-container{
@@ -41,7 +23,7 @@ body{
 }
 .container{
     
-    height: 1000vh;
+    height: 220vh;
     max-width: 100vw
     
 }
@@ -60,14 +42,14 @@ body{
     margin-left: 50px;
     font-size: 90px;
     font-family: 'Amatic SC', cursive;
-    color: black;
+    color: #161616;
 
 }
 .featured-text{
     font-size: 40px;
     font-family: 'Kirang Haerang', cursive;
     width: 50%;
-    color:black;
+    color:#161616;
     margin-left: 50px;
 
 }
@@ -128,7 +110,8 @@ body{
     height: 200px;
     position: absolute;
     top: 250px;
-    right: -50px;
+    right: -120px;
+    opacity: 0.8;
 
 
 }
@@ -137,7 +120,50 @@ body{
     height: 200px;
     position: absolute;
     top: 250px;
-    left: -50px;
+    left: -120px;
+    opacity: 0.8;
 
 
+}
+
+
+
+
+
+.v-container{
+    display: flex;
+    background-color: #292828;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.video{
+    width: 100%;
+    height: 100%;
+
+}
+.c-video{
+    width: 100%;
+    max-width: 80%;
+    height: 80%;
+    background-color: black;
+}
+
+.img{
+    margin-left: 190px;
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+}
+.title{
+    font-size: 100px;
+}
+.text-container{
+    margin-left: 600px;
+    margin-top: -500px;
+    font-family: 'Amatic SC', cursive;
+    color: silver;
+    font-size: 30px;
+    width: 700px;
 }
